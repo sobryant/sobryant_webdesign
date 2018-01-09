@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #86adbb;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url("rainy-day3.gif");
+   	background-position: left bottom; 
+   	background-repeat: no-repeat;
+   	background-size: 510px 521px;
+   	background-attachment: fixed;
+}
+img {
+    opacity: 0.3;
+    filter: alpha(opacity=80);
+}
+
+h1 {
+	color: #3b55aa;
+	font-size: 5em;
+	font-family: 'Amatic SC', cursive;
+    border: 1px black;
+	padding: 1em;
+	margin: 3em;
+	width: 800px;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	position: absolute;
+}
+
+
+img{
+	width: 100%
+	margin:auto;
+	text-align: center;
+}
+
+h2{
+	color: #a0c0e0;
+	font-size: 2em;
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+li{
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.25em;
+}
+
+p {
+	font-size: 1.25em;
+	font-family: 'Amatic SC', cursive;
+	border: 1px black;
+	padding: 1em;
+	margin: 3em;
+	width: 900px;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+	color: #152b74
+}
+.square{
+    width: 300px;
+    height: 300px;
+    Background-color: #3b55aa;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3b55aa;
+	font-size: 5em;
+	font-family: 'Amatic SC', cursive;
+    border: 1px black;
+	padding: 1em;
+	margin: 3em;
+	width: 800px;
+	box-sizing: border-box;
+	text-align: center;
+	margin:auto;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+		
