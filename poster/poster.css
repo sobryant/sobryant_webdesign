@@ -1,0 +1,98 @@
+body{
+	background: white;
+	font-family: Helvetica, sans-serif;
+}
+
+#triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 600px solid transparent;
+	border-left: 600px solid white;
+	mix-blend-mode: multiply;
+	float: right;
+	position: relative;
+	bottom: 0px;
+	animation: changecolor 10s linear 0s infinite alternate;
+
+}
+
+
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 600px solid transparent;
+	border-right: 600px solid white;
+	mix-blend-mode: multiply;
+	animation: changecolor 5s linear 0s infinite alternate;
+}
+
+#container {
+    position: absolute;
+    bottom: 0;
+    min-width:100%;
+    right: 0;
+    margin: 0;
+    }
+ #container2 {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    margin: 0;
+    }
+
+
+
+.left{
+	text-align: right;
+	margin-right: 1rem;
+}
+
+section{
+	transform: rotate(-45deg);
+}
+h1{
+	margin-bottom: 1rem;
+	font-size: 3.6em;
+	position: absolute;
+	right: 190px;
+	top: -45px;
+	transition: 2s;
+}
+
+h1:hover{
+	font-size: 3.4em;
+	color: magenta;
+	right: 200px;
+	top: -25px;
+}
+
+p{
+	margin: 0;
+	font-size: .9em;
+	text-align: right;
+	position: absolute;
+	right: 500px;
+	top: 210px;
+	white-space: nowrap;
+	transition: 1s;
+}
+
+p:hover{
+	font-size: 1.1em;
+	color: white;
+	right: 505px;
+	top: 175px;
+}
+
+@keyframes changecolor {
+	0%  {
+		 background-color: yellow;
+	}
+	100%{
+	 background-color: cyan;
+}
+}
+
+#poster{
+	transform: rotate(30deg)
+}

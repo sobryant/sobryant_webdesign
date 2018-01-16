@@ -1,0 +1,13 @@
+img{
+     padding: 5px 50px;
+}
+
+
+.turquois{
+	margin-top: 2em;
+    margin-left: 30%;
+}
+
+img:hover{
+	transform: scale(1.5); 
+}

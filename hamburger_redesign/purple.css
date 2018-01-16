@@ -1,0 +1,14 @@
+img{
+     padding: 45px 16px;
+}
+
+.blue{
+    margin-top: 15%;
+    margin-left: 3em;
+}
+
+
+
+img:hover{
+	transform: scale(1.2); 
+}
