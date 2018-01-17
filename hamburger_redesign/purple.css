@@ -3,12 +3,13 @@ img{
 }
 
 .blue{
-    margin-top: 15%;
+    margin-top: 13%;
     margin-left: 3em;
+    float: left;
 }
 
 
 
-img:hover{
-	transform: scale(1.2); 
+img:not(.no):hover{
+	transform: scale(1.25); 
 }

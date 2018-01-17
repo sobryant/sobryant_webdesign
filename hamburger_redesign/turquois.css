@@ -8,6 +8,6 @@ img{
     margin-left: 30%;
 }
 
-img:hover{
+img:not(.no):hover{
 	transform: scale(1.5); 
 }

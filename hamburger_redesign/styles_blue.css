@@ -11,8 +11,9 @@ img{
 	display: flex;
 	flex-direction: column;
 	align-content: space-between;
+	float:left;
 }
 
-img:hover{
+img:not(.no):hover{
 	transform: scale(1.2); 
 }
