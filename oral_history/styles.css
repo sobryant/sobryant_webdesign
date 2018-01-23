@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+body {
+	font-family: 'Reenie Beanie', cursive;
+	background-color: #0e0000;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: #54433d;
+}
+a:visited {
+	color: #ffeed2;
+}
+
+h1 {
+	color: #ffeed2;
+	margin-right: 1.6em;
+	margin-left: 1.6em;
+	font-size: 1.5em;
+	text-align: center;
+	width: 135px;
+}
+
+h2 {
+	color: #f7deb4;
+	margin-right: 4.2em;
+	margin-left: 4.2em;
+	text-align: center;
+	font-size: 1.75em;
+	width: 170px;
+}
+
+h3 {
+	color: #f4cd8d;
+	margin-right: 8.75em;
+	margin-left: 8.75em;
+	text-align: center;
+	font-size: 2.25em;
+}
+
+h4 {
+	color: #f1b85b;
+	margin-right: 8.75em;
+	margin-left: 8.75em;
+	text-align: center;
+	font-size: 3em;
+}
+
+h4:visited {
+	color: #62b4f4;
+}
+
+h5 {
+	color: #54433d;
+	text-align: center;
+	font-size: 1.5em;
+	position: absolute;
+	bottom: 0px;
+	right: 35%;
+	left:35%;
+}
+
+h6 {
+	color: #54433d;
+	text-align: center;
+	font-size: 1.5em;
+}
+ .container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+img.top {
+	height: 70px;
+	width: 230px;
+	margin-right: 6.0em;
+	margin-left: 6.0em;
+}
+img.middle {
+	height: 100px;
+	width: 420px;
+	margin-right: 12.5em;
+	margin-left: 12.5em;
+}
+
+ #btn_playPause{
+  background:url("playpause.png") no-repeat;
+  border:none;
+  width:32px;
+  height:32px;
+  cursor:pointer;
+  outline:none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
