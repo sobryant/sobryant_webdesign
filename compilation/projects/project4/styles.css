@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Prata');
+body{
+	height: 100%
+}
+
+h1{
+	text-align: center;
+	color: #0e1c00;
+	font-family: 'Prata', serif;
+	font-size: 3em;
+	border-color: #0e1c00;
+	border-width: 2px;
+	border-style: solid;
+	width: 4.5em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: .35em;
+}
+h2{
+	text-align: center;
+	color: white;
+	font-family: 'Prata', serif;
+}
+h3{
+	margin-left: 6em;
+	margin-right: 6em;
+	font-family: 'Prata', serif;
+	font-size: .9em;
+}
+h4{
+	font-family: 'Prata', serif;
+	font-size: .75em;
+	text-align: center;
+	color: #890303;
+}
+h5{
+	margin: 2em;
+	margin-left: 8em;
+	font-family: 'Prata', serif;
+	color: #0e1c00;
+}
+h6{
+	font-family: 'Prata', serif;
+	text-align: center;
+	font-size: 1em;
+	margin-top: .5em;
+	color: #0e1c00;
+}
+h7{
+	font-family: 'Prata', serif;
+	font-size: 1.15em;
+	margin: 3em;
+	width: 30%;
+	text-indent: 50px;
+	color: #0e1c00;
+}
+h8{
+	font-family: 'Prata', serif;
+	font-size: 1em;
+	color: #b3aead;
+	text-align: center;
+}
+.problem{
+	text-align: center
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#menu{
+	background-color: #b3aead;
+}
+
+img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; 
+    -webkit-filter: grayscale(100%); 
+    -webkit-transition: all 1s ease; 
+    -webkit-backface-visibility: hidden; 
+}
+
+img:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+img.landscape{
+	width: 28em;
+	margin: 1em;
+}
+
+img.portrait{
+	height: 28em;
+	margin: 1em;
+}
+img.socialmedia{
+	width: 30px;
+	height: 30px;
+	margin: 1.5em;
+	margin-bottom:auto;
+}
+img.discoveries{
+	height: 400px;
+	margin: 2em;
+	margin-bottom: 0em;
+}
+iframe{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+ */
+    filter: gray; 
+    -webkit-filter: grayscale(100%); 
+    -webkit-transition: all 1s ease; 
+    -webkit-backface-visibility: hidden; 
+    text-align: center;
+}
+iframe:hover {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(0%);
+}
+
+.fade{
+	width: 58%;
+	margin: auto;
+	margin-top: 1em;
+}
+.variable-width{
+	height: 18%;
+	margin: auto;
+	margin-top: 1em;
+}
+
+a:hover{
+	color: #0e1c00;
+}
+textarea{
+	margin-left: 10em;
+}
+select{
+	margin-left: 10em;
+	margin-top: 2em;
+}
+img.pages{
+	height: 665px;
+	width: 475px
+}
