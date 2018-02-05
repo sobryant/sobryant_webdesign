@@ -94,12 +94,12 @@ img:hover {
 }
 
 img.landscape{
-	width: 28em;
+	max-width: 28em;
 	margin: 1em;
 }
 
 img.portrait{
-	height: 28em;
+	max-height: 28em;
 	margin: 1em;
 }
 img.socialmedia{
@@ -151,3 +151,7 @@ img.pages{
 	height: 665px;
 	width: 475px
 }
+@media screen and (max-width: 800px){
+    img, {
+        width: 80%;
+    }
