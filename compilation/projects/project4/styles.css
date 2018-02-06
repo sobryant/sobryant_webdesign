@@ -61,6 +61,31 @@ h8{
 	color: #b3aead;
 	text-align: center;
 }
+h9{
+	font-family: 'Prata', serif;
+	font-size: 2em;
+	color: #0e1c00;
+	border-color: #0e1c00;
+	border-width: 2.3px;
+	border-radius: 3.5px;
+	width: 7em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	text-align: center;
+}
+h10{
+	font-family: 'Prata', serif;
+	font-size: 1.1em;
+	color: #0e1c00;
+}
+h11{
+	font-family: 'Prata', serif;
+	font-size: .9em;
+	color: #b3aead;
+}
+
 .problem{
 	text-align: center
 }
@@ -127,7 +152,7 @@ iframe:hover {
 }
 
 .fade{
-	width: 58%;
+	width: 80%;
 	margin: auto;
 	margin-top: 1em;
 }
